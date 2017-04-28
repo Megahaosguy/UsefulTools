@@ -12,9 +12,10 @@ local function placeItDown()
    robot.select(1)
    robot.back()
    robot.place()
-   robot.back()
+   robot.up()
    robot.select(2)
    robot.place()
+   robot.down()
 end
 
 
