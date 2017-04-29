@@ -86,7 +86,7 @@ end
 
 function input(inputValue)
    if inputValue == '1' then
-      placeItThere()
+      regular()
    elseif inputValue == '2' then
       io.write('# How far away?')
 	  local distance1 = io.read()
